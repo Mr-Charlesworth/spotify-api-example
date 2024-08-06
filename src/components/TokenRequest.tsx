@@ -29,7 +29,7 @@ const TokenRequest: FC<{
       {apiError && (
         <p>{"API Error. Need a new token?"}</p>
       )}
-      <button className="btn btn-primary" onClick={requestTokenHandler} >{"Request new Token"}</button>
+      <button className="btn btn-primary" onClick={requestTokenHandler} >{"Request New Token"}</button>
       {requestError && (
         <p>{"Token Request Error"}</p>
       )}
